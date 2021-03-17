@@ -8,8 +8,6 @@ class CommonHolders
         parse()
     end
 
-    attr_reader :commonHolders
-
     #parses the data from the csv files
     def parse()
         files = []
